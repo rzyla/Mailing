@@ -1,0 +1,128 @@
+/* reset css */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* main css */
+body {
+	font-size: 12px;
+	font-family: Arial;
+	color: #505050;
+}
+body:before {
+	content: " ";
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 500px;
+	height: 500px;
+	background-image: url("img/bg.jpg");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+.color {
+	color: #0095da;
+}
+
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.clear-all {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+	clear: both;
+}
+
+#body {
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+}
+
+#content {
+	padding: 30px 0 20px 0;
+}
+
+#message {
+	padding: 10px;
+	text-align: center;
+}
+#message.success {
+	color: #009fdf;
+	border: 1px solid #009fdf;
+	background-color: #ebf9ff;
+}
+#message.error {
+	color: #ff0000;
+	border: 1px solid #ff0000;
+	background-color: #ffebeb;
+}
+
+#add {
+	text-align: center;
+	padding: 30px 0;
+}
+
+#foot {
+	border-top: 1px solid #0095da;
+	border-bottom: 1px solid #0095da;
+	padding: 20px;
+	line-height: 20px;
+}
+#foot h3 {
+	margin: 0 0 20px 0;
+}
+
+#tmp {
+	text-align: center;
+	padding: 20px;
+}
+#tmp img {
+	position: relative;
+	top: 5px;
+}
+#tmp a {
+	color: #fe0000;
+	text-decoration: none;
+}
+#tmp a:hover {
+	opacity: 0.8;
+}
